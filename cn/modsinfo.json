@@ -1,0 +1,9 @@
+[{
+	"modname":"实例1",
+	"tags":["标签1","标签2"],
+	"author":"作者名",
+	"ver":"mod版本",
+	"info":"简介",
+	"warning":"注意事项，可不填",
+	"addr":"www.baidu.com"
+}]
