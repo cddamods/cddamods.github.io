@@ -1,9 +1,8 @@
 [{
-	"modname":"实例1",
-	"tags":["标签1","标签2"],
-	"author":"作者名",
-	"ver":"mod版本",
-	"info":"简介",
-	"warning":"注意事项，可不填",
-	"addr":"www.baidu.com"
+	"modname":"新月玫瑰补充包",
+	"tags":["物品扩展","武器扩展",],
+	"author":"言静",
+	"ver":"v1.0",
+	"info":"面向后期的娱乐向粉丝向物品补充包，添加了网络动画RWBY中的一些专属武器以及它们的使用技巧。",
+	"addr":"mods/Crescent_Rose_1.zip"
 }]
