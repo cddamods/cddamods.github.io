@@ -9,7 +9,7 @@ function LoadMods(){
 		
 		content += "<p class=\"tag\">";
 		for(var j = 0;j<mod.tags.length;j++){
-			content += mod.tags[i] + " ";
+			content += mod.tags[j] + " ";
 		}
 		content += "</p>";
 		
@@ -26,7 +26,9 @@ function LoadMods(){
 		
 		content += "<p class=\"Msg\">" + mod.info + "</p>";
 		
-		content += "<p class=\"warning\">" + mod.warning + "</p>";
+		if(mod.warning != undefined){
+			content += "<p class=\"warning\">" + mod.warning + "</p>";
+		}
 		
 		content += "<a class=\"download\" href=\"" + mod.addr + "\">下载</a>"
 		
