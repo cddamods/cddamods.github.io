@@ -30,6 +30,8 @@ function LoadMods(){
 		
 		content += "<a class=\"download\" href=\"" + mod.addr + "\">下载</a>"
 		
+		content += "</div>"
+		
 		$(".Mods").append(content);
 	}
 }
