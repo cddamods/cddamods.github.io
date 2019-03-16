@@ -12,12 +12,12 @@ function LoadMods(){
 			content += mod.tags[j] + " ";
 		}
 		content += "</p>";
-		
-		content += "<p class=\"author " + mod.author + "\">作者：" + mod.author + "</p>";
+		var id = i;
+		content += "<p class=\"author\" id=\"" + id + "\">作者：" + mod.author + "</p>";
 		//获取作者信息
 		$.getJSON("authors/" + mod.author + ".json",function(data) {
 				if(data.email != undefined){
-					$("." + mod.author).after("<p class=\"authormsg\">作者邮箱：" + data.email + " </p>");
+					$("#" + id).after("<p class=\"authormsg\">作者邮箱：" + data.email + " </p>");
 				}
 	   			
    			});
