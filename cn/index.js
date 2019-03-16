@@ -12,15 +12,10 @@ function LoadMods(){
 			content += mod.tags[j] + " ";
 		}
 		content += "</p>";
-		var id = i;
-		content += "<p class=\"author\" id=\"" + id + "\">作者：" + mod.author + "</p>";
+		
+		content += "<p class=\"author\" id=\"" + i + "\">作者：" + mod.author + "</p>";
 		//获取作者信息
-		$.getJSON("authors/" + mod.author + ".json",function(data) {
-				if(data.email != undefined){
-					$("#" + id).after("<p class=\"authormsg\">作者邮箱：" + data.email + " </p>");
-				}
-	   			
-   			});
+		LoadAuthorInfo(mod.author,i);
 		
 		content += "<p class=\"Modver\">版本：" + mod.ver + "</p>";
 		
@@ -36,6 +31,14 @@ function LoadMods(){
 		
 		$(".Mods").append(content);
 	}
+}
+function LoadAuthorInfo(name,id){
+	$.getJSON("authors/" + name + ".json",function(data) {
+				if(data.email != undefined){
+					$("#" + id).after("<p class=\"authormsg\">作者邮箱：" + data.email + " </p>");
+				}
+	   			
+   			});
 }
 //加载信息
 $.getJSON("modsinfo.json",function(data) {
