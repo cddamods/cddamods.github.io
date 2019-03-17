@@ -56,28 +56,30 @@ header {
 	padding-bottom: 5px;
 }
 .Mods {
-	clear: both;
-	display: inline-block;
-	width: 100%;
-	background-color: #FFFFFF;
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 35px;
+    padding-top: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .Mod {
-	width: 300px;
-	text-align: left;
-	float: left;
-	background-color: #F8F8F8;
-	padding-bottom: 5px;
-	border-radius: 3px;
-	border-bottom: 4px solid #6DC7D0;
-	margin-top: 10px;
-	margin-right: 10px;
-	/* [disabled]margin-left: 10px; */
-	margin-bottom: 10px;
-	padding-top: 5px;
+    width: 280px;
+    text-align: left;
+    float: left;
+    background-color: #F8F8F8;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border-bottom: 4px solid #6DC7D0;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5x;
+    margin-bottom: 10px;
+    padding-top: 5px;
 }
 .Mod h4 {
 	margin-top: 20px;
