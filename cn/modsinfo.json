@@ -1,9 +1,35 @@
 [{  
+	"modname":"磨面、做米",  
+	"tags":["物品扩展"],  
+	"author":"Jeff",  
+	"ver":"huayue0923修改版",  
+	"info":"添加了一个电力研磨机、大米放大器和相应配方，方便的磨面，并用面粉制作大米。还有载具用联动窗帘。",  
+	"addr":"mods/磨面、做米0.3.rar"  
+},  
+{  
+	"modname":"奥术",  
+	"tags":["物品扩展","怪物扩展","任务扩展"],  
+	"author":"Chaosvolt",  
+	"ver":"最新版",  
+	"info":"增加了创造和使用魔法物品的新技能——奥术，并添加了许多超自然的怪物。",  
+	"warning":"因为网络流传的奥术汉化版本已经不适用最新版游戏，所以这里仅提供github上mod的下载地址。",  
+	"addr":"https://github.com/chaosvolt/cdda-arcana-mod/archive/master.zip"  
+},  
+{  
+	"modname":"Cataclysm++",  
+	"tags":["物品扩展","怪物扩展","任务扩展"],  
+	"author":"Noctifer",  
+	"ver":"最新版",  
+	"info":"大灾变的非官方扩张mod",  
+	"warning":"因为网络流传的Cataclysm++汉化版本已经不适用最新版游戏，所以这里仅提供github上mod的下载地址。",  
+	"addr":"https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip"  
+},  
+{  
 	"modname":"北斗神拳",  
 	"tags":["武术扩展"],  
 	"author":"未知",  
 	"ver":"2016/12/1",  
-	"info":"这是一个符合世纪末的的mod，乱世出英豪。",  
+	"info":"这是一个适合世纪末日的mod，乱世出英豪。",  
 	"addr":"mods/北斗神拳汉化修正.zip"  
 },
 {  
