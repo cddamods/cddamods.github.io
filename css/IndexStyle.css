@@ -68,11 +68,16 @@ header {
     padding-right: auto;
 }
 .Mod {
+	overflow-y: auto;
+	overflow-x: hidden;
     width: 290px;
+	height: 350px;
     text-align: left;
     float: left;
     background-color: #F8F8F8;
     padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
     border-radius: 3px;
     border-bottom: 4px solid #6DC7D0;
     margin-top: 10px;
