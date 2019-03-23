@@ -1,4 +1,29 @@
 [{  
+	"modname":"战锤40K",  
+	"tags":["物品扩展","怪物扩展"],  
+	"author":"Wulfle",  
+	"ver":"sddony修复2019.01.21",  
+	"info":"增加了“战锤40000宇宙”的元素。",  
+	"warning":"需要同时加载内置mod:疯狂大灾变CrazyCataclysm。",  
+	"addr":"mods/Cataclysim-40K-master.zip"  
+}, 
+{  
+	"modname":"纳米科技装备",  
+	"tags":["物品扩展"],  
+	"author":"Shard",  
+	"ver":"Ziko340汉化2018.12.26",  
+	"info":"基于纳米技术和3D打印技术的高端产品，以后将添加变异体系。",  
+	"addr":"mods/AdvancedGear-CDDA-Mod-master.zip"  
+}, 
+{  
+	"modname":"工具收纳包",  
+	"tags":["物品扩展"],  
+	"author":"Maddremor",  
+	"ver":"2017.10.09",  
+	"info":"工具无处收纳?试试这个!",  
+	"addr":"mods/tool bundle master(工具收纳包).zip"  
+}, 
+{  
 	"modname":"磨面、做米",  
 	"tags":["物品扩展"],  
 	"author":"Jeff",  
@@ -20,7 +45,7 @@
 	"tags":["物品扩展","怪物扩展","任务扩展"],  
 	"author":"Noctifer",  
 	"ver":"最新版",  
-	"info":"大灾变的非官方扩张mod",  
+	"info":"大灾变的非官方扩展mod",  
 	"warning":"因为网络流传的Cataclysm++汉化版本已经不适用最新版游戏，所以这里仅提供github上mod的下载地址。",  
 	"addr":"https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip"  
 },  
