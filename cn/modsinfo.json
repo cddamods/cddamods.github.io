@@ -1,4 +1,12 @@
 [{  
+	"modname":"商人",  
+	"tags":["地图扩展","NPC扩展"],  
+	"author":"Undereastern",  
+	"ver":"2018.04",  
+	"info":"添加商人和幸存者聚集点。",  
+	"addr":"mods/商人mod安卓4.9(或pc...)出错修复.zip"  
+}, 
+{  
 	"modname":"战锤40K",  
 	"tags":["物品扩展","怪物扩展"],  
 	"author":"Wulfle",  
