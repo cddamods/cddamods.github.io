@@ -88,4 +88,13 @@
 	"ver":"0.C.8242",  
 	"info":"使用黑虎阿福所使用的独特招式来击退敌人！",  
 	"addr":"mods/黑虎阿福流派mod-0.C.8242.zip"  
+},  
+{  
+	"modname":"hentai",  
+	"tags":["LUA扩展","NPC扩展","怪物扩展"],  
+	"author":"溜まり場の変態",  
+	"ver":"汉化版",  
+	"info":"追加HENTAI元素！",  
+	"warning":"适用于PC 0.D-8612前的版本,不适用于安卓版。",  
+	"addr":"mods/HentaiMod[渣翻][修改自群内的{Hentai垃圾汉化V2}].zip"  
 }]
