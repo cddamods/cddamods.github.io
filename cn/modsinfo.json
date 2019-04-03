@@ -97,4 +97,13 @@
 	"info":"追加HENTAI元素！",  
 	"warning":"适用于PC 0.D-8612前的版本,不适用于安卓版。",  
 	"addr":"mods/HentaiMod[渣翻][修改自群内的{Hentai垃圾汉化V2}].zip"  
+},  
+{  
+	"modname":"电子书扫描仪",  
+	"tags":["LUA扩展","物品扩展"],  
+	"author":"LISP",  
+	"ver":"贴吧用户_0P9XUWe汉化版",  
+	"info":"使用平板电脑和扫描仪将纸质图书转换成数字形式，便于存储。",  
+	"warning":"适用于PC 0.D-8612前的版本,不适用于安卓版。",  
+	"addr":"mods/bookscanner-master.rar"  
 }]
