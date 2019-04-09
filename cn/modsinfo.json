@@ -52,10 +52,19 @@
 	"modname":"Cataclysm++",  
 	"tags":["物品扩展","怪物扩展","任务扩展"],  
 	"author":"Noctifer",  
-	"ver":"最新版",  
+	"ver":"Ziko340汉化2019.4.9",  
 	"info":"大灾变的非官方扩展mod",  
-	"warning":"因为网络流传的Cataclysm++汉化版本已经不适用最新版游戏，所以这里仅提供github上mod的下载地址。",  
-	"addr":"https://github.com/Noctifer-de-Mortem/nocts_cata_mod/archive/master.zip"  
+	"warning":"基于github上2019.4.8的mod版本的汉化，建议使用8740+游戏版本加载本汉化mod。",  
+	"addr":"mods/nocts_cata_mod-master.zip"  
+},  
+{  
+	"modname":"PKs Rebalancing",  
+	"tags":["物品扩展","怪物扩展","建筑扩展"],  
+	"author":"pisskop",  
+	"ver":"Ziko340汉化2019.4.9",  
+	"info":"重新平衡刷新列表，添加新怪物和物品，添加新建筑和强化旧建筑，并努力创造更恶劣的生存环境。",  
+	"warning":"基于github上2019.4.8的mod版本的汉化，建议使用8740+游戏版本加载本汉化mod。",  
+	"addr":"mods/PKs_Rebalancing-master.zip"  
 },  
 {  
 	"modname":"北斗神拳",  
