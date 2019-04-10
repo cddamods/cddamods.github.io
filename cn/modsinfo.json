@@ -115,4 +115,13 @@
 	"info":"使用平板电脑和扫描仪将纸质图书转换成数字形式，便于存储。",  
 	"warning":"适用于PC 0.D-8612前的版本,不适用于安卓版。",  
 	"addr":"mods/bookscanner-master.rar"  
+},  
+{  
+	"modname":"空间徽章",  
+	"tags":["LUA扩展","物品扩展"],  
+	"author":"destoryandkill",  
+	"ver":"2019.2.2",  
+	"info":"空间徽章,有远程传送等功能。",  
+	"warning":"适用于PC 0.D-8612前的版本,不适用于安卓版。",  
+	"addr":"mods/空间徽章LUA mod,2019.2.2.rar"  
 }]
