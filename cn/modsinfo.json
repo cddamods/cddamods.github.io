@@ -1,4 +1,12 @@
 [{  
+	"modname":"采矿Mod",  
+	"tags":["地图扩展","物品扩展"],  
+	"author":"DangerNoodle",  
+	"ver":"993499094汉化2018.7.9",  
+	"info":"在地下随机添加矿脉,获取各种自然资源.(Mining Mod)。",  
+	"addr":"mods/CDDA_挖矿mod_Runningsky_CHS.zip"  
+}, 
+{  
 	"modname":"商人",  
 	"tags":["地图扩展","NPC扩展"],  
 	"author":"Undereastern",  
