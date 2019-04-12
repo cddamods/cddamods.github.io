@@ -1,4 +1,12 @@
 [{  
+	"modname":"幸存者擴充",  
+	"tags":["物品扩展","地形扩展"],  
+	"author":"桂溪",  
+	"ver":" v1.0",  
+	"info":"擴充道具、配方、地形，重新平衡原版部分內容。",  
+	"addr":"mods/Survivor Extend v 1.0.rar"  
+}, 
+{  
 	"modname":"采矿Mod",  
 	"tags":["地图扩展","物品扩展"],  
 	"author":"DangerNoodle",  
