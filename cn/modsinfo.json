@@ -149,7 +149,7 @@
 	"info":"困难模式。",  
 	"warning":"适用于PC 0.D-8612前的版本.不适用于安卓版,0.4.7,0.4.9可能可以使用？",  
 	"addr":"mods/Hard_Mode.rar"  
-}],  
+},  
 {  
 	"modname":"KawaiiMaid",  
 	"tags":["LUA扩展","物品扩展"],  
@@ -158,4 +158,4 @@
 	"info":"Kawaii角色、Kawaii女仆装、Kawaii武器等道具、利用Lua所制网络商店、传送等系统追加(百度贴吧鵺の轨迹翻译)。",  
 	"warning":"贴图需要同时加载hairs.适用于PC 0.D-8612前的版本,不适用于安卓版。",  
 	"addr":"mods/kawaii+hairs.rar"  
-}]]
+}]
