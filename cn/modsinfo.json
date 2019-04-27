@@ -1,4 +1,12 @@
 [{  
+	"modname":"森林mod",  
+	"tags":["物品扩展","地形扩展","NPC扩展"],  
+	"author":"未知",  
+	"ver":" v1.0",  
+	"info":"添加:森林覆盖率,森林地形扩展变体,[NPC]猎人",
+	"addr":"mods/Forest.rar"  
+},
+{  
 	"modname":"幸存者擴充",  
 	"tags":["物品扩展","地形扩展"],  
 	"author":"桂溪",  
