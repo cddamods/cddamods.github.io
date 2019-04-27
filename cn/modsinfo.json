@@ -1,4 +1,12 @@
 [
+{
+	"modname":"着火世界mod",  
+	"tags":["物品扩展","怪物扩展"],  
+	"author":"Trivega",  
+	"ver":" v1.0",  
+	"info":"添加:许多火系的怪物，新的材料，物品，车辆零件",
+	"addr":"mods/World_On_Fire.rar"  
+},
 {  
 	"modname":"辐射mod",  
 	"tags":["物品扩展","地形扩展","NPC扩展","怪物扩展","武术扩展"],  
