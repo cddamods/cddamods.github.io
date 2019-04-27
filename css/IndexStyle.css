@@ -163,5 +163,8 @@ footer {
 	
 }
 .abutton{
+	text-align: center
+}
+#changepage{
 	display: block
 }
