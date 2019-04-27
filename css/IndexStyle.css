@@ -82,7 +82,7 @@ header {
     border-bottom: 4px solid #6DC7D0;
     margin-top: 10px;
     margin-right: 5px;
-    margin-left: 5x;
+    margin-left: 5px;
     margin-bottom: 10px;
     padding-top: 5px;
 }
@@ -162,9 +162,8 @@ footer {
 	font-size: 20px;
 	
 }
-.abutton{
-	text-align: center
-}
 #changepage{
-	display: block
+	margin: auto;
+	display: block;
+	text-align: center;
 }

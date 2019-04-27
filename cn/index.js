@@ -1,5 +1,5 @@
 var mods = null;
-var pagemax = 10;
+var pagemax = 12;
 //加载页面
 function LoadMods(pageindex){
 	$(".Mods").empty();
@@ -37,13 +37,14 @@ function LoadMods(pageindex){
 		
 	}
 	//添加换页
+		$("#changepage").append("<p>现在是第"+ (pageindex + 1) + "页，共"+ Math.ceil(mods.length / pagemax) +"页</p>")
 		if(pageindex == 0){
-			$("#changepage").append("<a href=\"#Mods\" class=\"abutton\" onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
+			$("#changepage").append("<a href=\"#header\" onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
 		}else if(modindex + pagemax >= mods.length){//当到了最后一页
-			$("#changepage").append("<a href=\"#Mods\" class=\"abutton\" onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
+			$("#changepage").append("<a href=\"#header\" onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
 		}else{
-			$("#changepage").append("<a href=\"#Mods\" class=\"abutton\" onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
-			$("#changepage").append("<a href=\"#Mods\" class=\"abutton\" onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
+			$("#changepage").append("<a href=\"#header\" onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
+			$("#changepage").append("<a href=\"#header\" onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
 		}
 }
 function LoadAuthorInfo(name,id){
