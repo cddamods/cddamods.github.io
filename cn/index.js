@@ -3,7 +3,7 @@ var pagemax = 10;
 //加载页面
 function LoadMods(pageindex){
 	var modindex = pageindex * pagemax;
-	for(var i = modindex;i<(modindex + pagemax < mods.length ? modindex+pagemax : mod.length);i++){
+	for(var i = modindex;i<(modindex + pagemax < mods.length ? modindex+pagemax : mods.length);i++){
 		var mod = mods[i];
 		var content = "<div class=\"Mod\">";
 		
@@ -32,16 +32,17 @@ function LoadMods(pageindex){
 		content += "</div>"
 		
 		$(".Mods").append(content);
-		//添加换页
+		
+	}
+	//添加换页
 		if(pageindex == 0){
 			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>");
-		}else if(modindex + pagemax >= mod.length){//当到了最后一页
+		}else if(modindex + pagemax >= mods.length){//当到了最后一页
 			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>");
 		}else{
 			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>");
 			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>");
 		}
-	}
 }
 function LoadAuthorInfo(name,id){
 	$.getJSON("authors/" + name + ".json",function(data) {
