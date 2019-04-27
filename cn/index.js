@@ -37,12 +37,12 @@ function LoadMods(pageindex){
 	}
 	//添加换页
 		if(pageindex == 0){
-			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>");
+			$(".Mods").append("<a onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
 		}else if(modindex + pagemax >= mods.length){//当到了最后一页
-			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>");
+			$(".Mods").append("<a onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
 		}else{
-			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>");
-			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>");
+			$(".Mods").append("<a onClick=\"LoadMods(" + (pageindex - 1) + ")\">上一页</a>");
+			$(".Mods").append("<a onClick=\"LoadMods(" + (pageindex + 1) + ")\">下一页</a>");
 		}
 }
 function LoadAuthorInfo(name,id){
