@@ -34,12 +34,12 @@ function LoadMods(pageindex){
 		$(".Mods").append(content);
 		//添加换页
 		if(pageindex == 0){
-			$(".Mods").append("<a onClick=\"LoadMods(" + (index + 1) + ")\">下一页</a>")
+			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>");
 		}else if(modindex + pagemax >= mod.length){//当到了最后一页
-			$(".Mods").append("<a onClick=\"LoadMods(" + (index - 1) + ")\">上一页</a>")
+			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>")
 		}else{
-			$(".Mods").append("<a onClick=\"LoadMods(" + (index - 1) + ")\">上一页</a>")
-			$(".Mods").append("<a onClick=\"LoadMods(" + (index + 1) + ")\">下一页</a>")
+			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex - 1) + ")\">上一页</a>")
+			$(".Mods").append("<a onClick=\"LoadMods(" + (modindex + 1) + ")\">下一页</a>")
 		}
 	}
 }
