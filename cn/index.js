@@ -2,6 +2,7 @@ var mods = null;
 var pagemax = 10;
 //加载页面
 function LoadMods(pageindex){
+	$(".Mods").empty();
 	var modindex = pageindex * pagemax;
 	for(var i = modindex;i<(modindex + pagemax < mods.length ? modindex+pagemax : mods.length);i++){
 		var mod = mods[i];
