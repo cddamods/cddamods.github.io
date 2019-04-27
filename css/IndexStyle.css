@@ -60,7 +60,7 @@ header {
     display: inline-block;
     width: 100%;
     background-color: #FFFFFF;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
     padding-top: 0px;
     margin-top: -5px;
     margin-bottom: 0px;
@@ -166,4 +166,8 @@ footer {
 	margin: auto;
 	display: block;
 	text-align: center;
+}
+#changepage p{
+	padding: 0px;
+	margin: 0px;
 }
