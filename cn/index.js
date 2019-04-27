@@ -33,7 +33,7 @@ function LoadMods(pageindex){
 		
 		$(".Mods").append(content);
 		//添加换页
-		if(index == 0){
+		if(pageindex == 0){
 			$(".Mods").append("<a onClick=\"LoadMods(" + (index + 1) + ")\">下一页</a>")
 		}else if(modindex + pagemax >= mod.length){//当到了最后一页
 			$(".Mods").append("<a onClick=\"LoadMods(" + (index - 1) + ")\">上一页</a>")
