@@ -1,4 +1,21 @@
-[{  
+[
+{
+	"modname":"着火世界mod(未汉化)",  
+	"tags":["物品扩展","怪物扩展"],  
+	"author":"Trivega",  
+	"ver":" v1.0",  
+	"info":"添加:许多火系的怪物，新的材料，物品，车辆零件.8653测试有效",
+	"addr":"mods/World_On_Fire.rar"  
+},
+{  
+	"modname":"辐射mod(未汉化)",  
+	"tags":["物品扩展","地形扩展","NPC扩展","怪物扩展","武术扩展"],  
+	"author":"Tefnut",  
+	"ver":" v1.0",  
+	"info":"添加:一些辐射1的枪与近战武器,避难所衣服,核子可乐,各种辐射里的怪物,新的武术书籍车辆零部件等等.8653测试有效",
+	"addr":"mods/Fallout-CDDA.rar"  
+},
+{  
 	"modname":"森林mod",  
 	"tags":["物品扩展","地形扩展","NPC扩展"],  
 	"author":"未知",  
