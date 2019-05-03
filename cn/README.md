@@ -1,6 +1,8 @@
 # mod上传教程
 
-github网页端基本操作指南：https://github.com/cddamods/cddamods.github.io/raw/master/cn/github操作指南之如何在网页端上传mod.doc
+[github fork工作流之如何使用github网页端上传mod的基本操作指南.](https://github.com/cddamods/cddamods.github.io/blob/master/cn/github fork工作流之如何使用github网页端上传mod的基本操作指南.md)
+
+[github fork工作流之如何使用git命令行提交贡献的操作指南](https://github.com/cddamods/cddamods.github.io/blob/master/cn/github fork工作流之如何使用git命令行提交贡献的操作指南.md)
 
 先将你的mod压缩包传入mods文件夹，然后再modsinfo的第一个[后填入以下内容  
   
