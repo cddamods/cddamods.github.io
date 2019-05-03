@@ -1,5 +1,21 @@
 [
 {
+	"modname":"蝙蝠侠衣服（未汉化）",  
+	"tags":["物品扩展"],  
+	"author":"Unknow",  
+	"ver":" v1.0",  
+	"info":"加入了蝙蝠侠的衣服与武器，想成为黑暗骑士的可以行动起来啦！",
+	"addr":"mods/Bat-Clothing-master.rar"  
+},
+{
+	"modname":"Odds and Ends（未汉化）",  
+	"tags":["物品扩展","场景扩展","职业扩展"],  
+	"author":"BorkBorkGoesTheCode",  
+	"ver":" v1.0",  
+	"info":"加入了火炮弹药筒，两把C96手枪，一把无声步枪，几个新职业，一个多功能眼镜（红外&太阳&泳镜），一些灾变前地形",
+	"addr":"mods/Odds-N-Ends-mod-prototype-master.rar"  
+},
+{
 	"modname":"变身",  
 	"tags":["物品扩展","武术扩展","场景扩展"],  
 	"author":"Musue暮雪",  
