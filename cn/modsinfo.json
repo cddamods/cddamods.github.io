@@ -1,4 +1,6 @@
-[{  
+
+[
+{  
 	"modname":"Arcana mod(神秘学&&魔法【未汉化】)",  
 	"tags":["物品扩展","地形扩展","怪物扩展","职业扩展"],  
 	"author":"chaosvolt",  
@@ -13,7 +15,55 @@
 	"ver":" v1.0",  
 	"info":"里面有两个mod，其中一个需要【神秘学&&魔法】mod，也可在本站下载，加入了吸血鬼职业和更多的魔法，加入了吸血鬼npc与一些新的npc任务",  
 	"addr":"mods/ampiric-Stuff-master.zip "  
-},  
+},
+{
+	"modname":"蝙蝠侠衣服（未汉化）",  
+	"tags":["物品扩展"],  
+	"author":"Unknow",  
+	"ver":" v1.0",  
+	"info":"加入了蝙蝠侠的衣服与武器，想成为黑暗骑士的可以行动起来啦！",
+	"addr":"mods/Bat-Clothing-master.rar"  
+},
+{
+	"modname":"Odds and Ends（未汉化）",  
+	"tags":["物品扩展","场景扩展","职业扩展"],  
+	"author":"BorkBorkGoesTheCode",  
+	"ver":" v1.0",  
+	"info":"加入了火炮弹药筒，两把C96手枪，一把无声步枪，几个新职业，一个多功能眼镜（红外&太阳&泳镜），一些灾变前地形",
+	"addr":"mods/Odds-N-Ends-mod-prototype-master.rar"  
+},
+{
+	"modname":"变身",  
+	"tags":["物品扩展","武术扩展","场景扩展"],  
+	"author":"Musue暮雪",  
+	"ver":" 2019.04.30",  
+	"info":"面向特摄粉丝和中后期玩家的异界内容补充包，推荐于最后加载.8866测试有效",
+	"addr":"mods/Henshin.zip"  
+},
+{
+	"modname":"着火世界mod(未汉化)",  
+	"tags":["物品扩展","怪物扩展"],  
+	"author":"Trivega",  
+	"ver":" v1.0",  
+	"info":"添加:许多火系的怪物，新的材料，物品，车辆零件.8653测试有效",
+	"addr":"mods/World_On_Fire.rar"  
+},
+{  
+	"modname":"辐射mod(已汉化)",  
+	"tags":["物品扩展","地形扩展","职业扩展","怪物扩展"],  
+	"author":"Tefnut",  
+	"ver":" v1.0+网友“没心”汉化",  
+	"info":"添加:一些辐射1的枪与近战武器,避难所衣服,核子可乐,各种辐射里的怪物,新的武术书籍车辆零部件等等.8653测试有效",
+	"addr":"mods/Fallout-CDDA.rar"  
+},
+{  
+	"modname":"森林mod",  
+	"tags":["物品扩展","地形扩展","NPC扩展"],  
+	"author":"未知",  
+	"ver":" v1.0",  
+	"info":"添加:森林覆盖率,森林地形扩展变体,[NPC]猎人",
+	"addr":"mods/Forest.rar"  
+},
 {  
 	"modname":"幸存者擴充",  
 	"tags":["物品扩展","地形扩展"],  
