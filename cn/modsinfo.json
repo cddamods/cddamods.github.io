@@ -1,19 +1,20 @@
-
 [
 {  
-	"modname":"Arcana mod(神秘学&&魔法【未汉化】)",  
+	"modname":"奥术【未汉化】",  
 	"tags":["物品扩展","地形扩展","怪物扩展","职业扩展"],  
 	"author":"chaosvolt",  
-	"ver":" v1.0",  
-	"info":"加入了魔法元素，怪物精华，加入了好几个魔法师职业，炼金术，各种魔法书与武器", 
+	"ver":" 2019.05.09",  
+	"info":"加入了魔法元素，怪物精华，好几个魔法师职业，炼金术，各种魔法书与武器。8945测试有效", 
+	"warning":"2019.05.09mod作者在github更新的mod版本，建议使用8920+。"
 	"addr":"mods/cdda-arcana-mod-master.zip "  
 },
 {  
 	"modname":"Vampire mod(吸血鬼【未汉化】)",  
 	"tags":["物品扩展","地形扩展","怪物扩展","职业扩展","NPC扩展","任务扩展"],  
 	"author":"Axema",  
-	"ver":" v1.0",  
-	"info":"里面有两个mod，其中一个需要【神秘学&&魔法】mod，也可在本站下载，加入了吸血鬼职业和更多的魔法，加入了吸血鬼npc与一些新的npc任务",  
+	"ver":" 2019.04.12",  
+	"info":"加入了吸血鬼职业，更多的魔法，吸血鬼npc与新的npc任务。里面有两个mod，其中加强版需要同时加载普通版+【奥术】mod。8945测试有效",  
+	"warning":"2019.04.12mod作者在github更新的mod版本，建议使用8760+。"
 	"addr":"mods/ampiric-Stuff-master.zip "  
 },
 {
@@ -120,15 +121,6 @@
 	"ver":"huayue0923修改版",  
 	"info":"添加了一个电力研磨机、大米放大器和相应配方，方便的磨面，并用面粉制作大米。还有载具用联动窗帘。",  
 	"addr":"mods/磨面、做米0.3.rar"  
-},  
-{  
-	"modname":"奥术",  
-	"tags":["物品扩展","怪物扩展","任务扩展"],  
-	"author":"Chaosvolt",  
-	"ver":"最新版",  
-	"info":"增加了创造和使用魔法物品的新技能——奥术，并添加了许多超自然的怪物。",  
-	"warning":"因为网络流传的奥术汉化版本已经不适用最新版游戏，所以这里仅提供github上mod的下载地址。",  
-	"addr":"https://github.com/chaosvolt/cdda-arcana-mod/archive/master.zip"  
 },  
 {  
 	"modname":"Cataclysm++",  
