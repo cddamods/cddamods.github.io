@@ -1,4 +1,21 @@
+
 [
+{  
+	"modname":"Arcana mod(神秘学&&魔法【未汉化】)",  
+	"tags":["物品扩展","地形扩展","怪物扩展","职业扩展"],  
+	"author":"chaosvolt",  
+	"ver":" v1.0",  
+	"info":"加入了魔法元素，怪物精华，加入了好几个魔法师职业，炼金术，各种魔法书与武器", 
+	"addr":"mods/cdda-arcana-mod-master.zip "  
+},
+{  
+	"modname":"Vampire mod(吸血鬼【未汉化】)",  
+	"tags":["物品扩展","地形扩展","怪物扩展","职业扩展","NPC扩展","任务扩展"],  
+	"author":"Axema",  
+	"ver":" v1.0",  
+	"info":"里面有两个mod，其中一个需要【神秘学&&魔法】mod，也可在本站下载，加入了吸血鬼职业和更多的魔法，加入了吸血鬼npc与一些新的npc任务",  
+	"addr":"mods/ampiric-Stuff-master.zip "  
+},
 {
 	"modname":"蝙蝠侠衣服（未汉化）",  
 	"tags":["物品扩展"],  
