@@ -3,11 +3,43 @@
 <head>
 <meta charset="utf-8">
 <title>Loading…</title>
+    <style>
+        *{
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+    padding: 0;
+        }
+        div{
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            margin-left: -50px;
+            margin-top: -50px;
+            vertical-align:middle;
+            text-align:center
+        }
+    </style>
+
 </head>
 
 <body>
-	<script language="javascript" type="text/javascript">
-		window.location.href="cn/index.html"
-	</script>
+<script language="javascript" type="text/javascript">
+    var t = 5;//设定跳转的时间 
+    setInterval("refer()", 1000); //启动1秒定时 
+    function refer() {
+        if (t > 0){
+            document.getElementById('show').innerHTML = "网址迁移，" + t + "秒后跳转到cdda幸存者基地"; // 显示倒计时
+        t--; // 计数器递减
+      }
+else{ 
+document.getElementById('show').innerHTML = "正在跳转到cdda幸存者基地"; // 显示下一步跳转
+window.location.href = "https://cdda-base.github.io/ "; //跳转的地址
+}        
+  } 
+</script>
+<div id="show" style="FONT-SIZE: 25px"></div>
 </body>
 </html>
